@@ -9,3 +9,4 @@
 
 # Non-distributable configs.
 phpunit.xml
+.phpunit*

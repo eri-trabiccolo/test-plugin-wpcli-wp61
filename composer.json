@@ -12,7 +12,7 @@
 	    }
     },
     "scripts": {
-	    "tests-install": "./bin/install-wp-tests.sh nul null null null 6.1.3 true",
+	    "tests-install": "./bin/install-wp-tests.sh ${TESTS_DB_NAME:-wptests} ${TESTS_DB_USER:-root} \"${TESTS_DB_PASS-password}\" ${TESTS_DB_HOST:-127.0.0.1} 6.1.3",
 	    "tests-run" : "./vendor/bin/phpunit"
     }
 }
