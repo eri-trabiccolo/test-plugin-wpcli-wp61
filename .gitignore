@@ -1,0 +1,11 @@
+/vendor/
+
+# Misc.
+*.log
+.DS_Store
+
+# Release distribution directory.
+/tmp/
+
+# Non-distributable configs.
+phpunit.xml
